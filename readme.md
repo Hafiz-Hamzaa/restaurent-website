@@ -10,13 +10,11 @@
 This project is a **turnkey solution for restaurants**. It demonstrates real-world functionality including:
 
 - Dynamic Menu with Categories & Filters  
-- Customer Order & Reservation Forms  
-- Customer Accounts (Login/Signup)  
-- Admin Dashboard for Orders & Menu Management  
+- Reservation Forms  
 - Responsive & visually appealing design  
 - Fully built with **HTML, CSS, and JavaScript** (localStorage used for data simulation)  
 
-> Ideal for **hackathons**, **portfolio showcase**, or selling to local restaurants as a ready-to-use digital product.
+> Ideal for **hackathons**, **portfolio showcase**, s as a ready-to-use digital product.
 
 ---
 
@@ -26,26 +24,13 @@ This project is a **turnkey solution for restaurants**. It demonstrates real-wor
 |------|-------------|
 | 🏠 **Home** | Hero section, featured dishes, promotions, restaurant intro, testimonials |
 | 📜 **Menu** | Full dynamic menu with categories, filters, prices, images |
-| 🛒 **Order / Inquiry** | Form for placing orders or inquiries (localStorage simulation) |
 | 📅 **Table Reservation** | Booking form for date, time, guests |
 | 👨‍🍳 **About** | Restaurant story, chef intro, gallery |
 | 📞 **Contact** | Contact form, map embed, phone/email links |
-| 🔑 **Login / Signup** | Customer account system using localStorage |
 
 ---
 
-## 🏢 Admin / Restaurant Owner Pages
-
-| Page | Description |
-|------|-------------|
-| 🔐 **Admin Login** | Secure access to admin dashboard |
-| 📊 **Admin Dashboard** | Overview of orders, reservations, popular dishes |
-| 📝 **Orders Management** | List all orders, mark as completed |
-| 🍴 **Menu Management** | Add/edit/delete dishes, mark availability |
-
----
-
-## 📆 4-Day Phase-Wise Plan
+## 📆 Day Phase-Wise Plan
 
 ### **Day 1: Structure & Layout 🏗️**
 - **Goal:** Build skeleton of the website  
@@ -57,25 +42,13 @@ This project is a **turnkey solution for restaurants**. It demonstrates real-wor
 - **Pages:** Menu, Order, Reservation  
 - **Focus:** Menu rendering via DOM, category filters, form validation, localStorage storage  
 
-### **Day 3: Customer Account & Admin Access 🔑**
-- **Goal:** Login/signup system and admin panel access  
-- **Pages:** Login/Signup, Admin Login  
-- **Focus:** LocalStorage-based authentication, session simulation  
-
-### **Day 4: Admin Dashboard & Final Touches 🏁**
-- **Goal:** Complete admin functionality + polish  
-- **Pages:** Admin Dashboard, Orders Management, Menu Management  
-- **Focus:** CRUD operations (localStorage), dynamic updates, final styling & responsiveness  
-
 ---
 
 ## 🛠️ Key Features
 
 - Fully responsive and professional design  
 - Dynamic menu with filtering and categories  
-- Order and reservation forms with validation  
-- LocalStorage-based customer accounts  
-- Admin dashboard with CRUD operations for menu and orders  
+- reservation forms with validation 
 - Contact form with map integration  
 - Market-ready structure for restaurants  
 
