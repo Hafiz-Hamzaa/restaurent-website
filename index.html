@@ -5,6 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TasteBite</title>
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
   </head>
   <body>
     <div class="overlay"></div>
@@ -16,8 +20,8 @@
           <li><a href="#">Home</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#menu">Menu</a></li>
-          <li><a href="#">Reservations</a></li>
-          <li><a href="#">Contact</a></li>
+          <li><a href="./reservation/booking.html">Reservations</a></li>
+          <li><a href="./contact/contact.html">Contact</a></li>
 
           <!-- Mobile CTA + Login Buttons -->
           <a href="#" class="mobile-cta">Order Now</a>
@@ -30,7 +34,7 @@
           <a href="#" class="login-btn">Login</a>
           <!-- Add this cart icon -->
           <div class="cart-icon">
-            <img src="./assets/cart.png" alt="">
+            <img src="./assets/cart.png" alt="tableBook" />
             <span class="cart-count">0</span>
             <div class="cart-dropdown"></div>
           </div>
@@ -108,6 +112,37 @@
       <!-- Cards will render here -->
       <div class="menu-container"></div>
     </section>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Left -->
+        <div class="footer-left">
+          <h2 class="footer-logo">TasteBite</h2>
+          <p class="footer-desc">
+            Making web experiences fast, modern and beautiful. Stay connected
+            with us!
+          </p>
+        </div>
+
+
+        <!-- Right Social Icons -->
+        <div class="footer-social">
+          <h3>Follow Us</h3>
+          <div class="social-icons">
+            <a href="#" class="social"
+              ><i class="fa-brands fa-facebook-f"></i
+            ></a>
+            <a href="#" class="social"
+              ><i class="fa-brands fa-instagram"></i
+            ></a>
+            <a href="#" class="social"><i class="fa-brands fa-twitter"></i></a>
+            <a href="#" class="social"><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">© 2025 YourBrand — All Rights Reserved.</div>
+    </footer>
 
     <script src="./app.js"></script>
   </body>
